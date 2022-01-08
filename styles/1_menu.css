@@ -1,0 +1,71 @@
+#pageHeader {
+	width: 100%;
+	height: 5.6rem;
+	position :fixed;
+	z-index: 10;
+	top : 0;
+	background-color: var(--second);
+}
+nav {		
+	display: flex;		
+}
+#logo {	
+	display: block;	
+	height: 2.6rem;		
+}
+.navLink {
+	text-decoration: none;
+	color: var(--main);
+	font-weight: 700;		
+}
+.navLink:hover {
+	color: var(--third);
+}
+@media screen and (orientation: portrait) {	
+	nav {
+		flex-direction: column;
+		flex-wrap: nowrap;		
+		padding-left: 3vh;
+		padding-right: 3vh;
+	}
+	#menuTop {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: flex-end;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	#burgerMenu {
+		height: 2.6rem;
+		padding-right: 1rem;
+	}		
+	.navLink {
+		display: none;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		border-bottom: 2px var(--main) solid;
+	}
+	.navLink:last-child {
+		border-bottom: 0;
+		padding-bottom: 1rem;
+	}
+
+}
+@media screen and (orientation: landscape) {		
+	#burgerMenu {
+		display: none;
+	}
+	nav {
+		flex-direction: row;
+		flex-wrap: nowrap;		
+		justify-content: space-around;
+		align-items: center;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+	.navLink {
+		display: block;
+	}
+}	

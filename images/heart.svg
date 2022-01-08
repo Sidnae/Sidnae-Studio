@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300"
+   height="270.621"
+   viewBox="0 0 79.374998 71.601809"
+   version="1.1"
+   id="svg2663"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="heart.svg">
+  <defs
+     id="defs2657" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-746.61418"
+     inkscape:cy="310.76009"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px" />
+  <metadata
+     id="metadata2660">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-225.39817)">
+    <path
+       style="display:inline;opacity:1;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.09006574;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.967044,225.39809 c -3.815378,0 -7.609649,0.99313 -10.794407,3.0835 -3.763753,2.58352 -6.248298,6.55406 -7.94136,10.73109 -0.20821,0.46291 -0.855943,0.4555 -1.061586,0.0285 -2.519056,-6.41914 -7.519234,-12.37195 -14.648289,-13.43753 -1.396434,-0.25099 -2.817681,-0.34968 -4.235791,-0.332 v 0 c -7.105097,-0.23102 -14.4609012,3.4734 -17.4137762,10.1481 -2.85019597,6.47619 -3.72867097,14.02281 -1.95489297,20.91542 2.91180397,10.33777 11.88822417,17.16848 20.03779317,23.39111 6.419429,4.9477 13.326013,9.7816 17.841034,16.63256 0.309178,0.43354 1.21589,0.73701 1.844513,-0.0285 6.978744,-10.04428 18.288828,-15.86304 27.118931,-24.0802 6.601399,-5.80792 11.933857,-13.98544 11.601007,-23.0828 -0.097,-7.86292 -2.265496,-16.83649 -9.467568,-21.14644 -3.272605,-1.84109 -7.109945,-2.8191 -10.925608,-2.81426 z"
+       id="path4441"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Sid\AndroidStudioProjects\Mnemosismemorygame\app\src\main\res\drawable\z_co7.png"
+       inkscape:export-xdpi="43.548409"
+       inkscape:export-ydpi="43.548409"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4402-5-9-7-37-9-0-2-2-3-2-1-3"
+       d="m 26.985654,241.40736 c -13.122837,-0.0712 -20.4069061,23.02511 12.701835,42.48235 43.244077,-25.41387 17.579861,-57.03578 0,-35.13375 -4.120244,-5.13329 -8.684615,-7.32636 -12.701835,-7.3486 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.62525916;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

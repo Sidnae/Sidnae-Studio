@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Sidnae Studio, Développement Web</title>		
+	<link rel="stylesheet" type="text/css" href="styles/0_common.css">
+	<link rel="stylesheet" type="text/css" href="styles/1_menu.css">
+	<link rel="stylesheet" type="text/css" href="styles/2_intro.css">
+	<link rel="stylesheet" type="text/css" href="styles/3_jeu.css">
+	<link rel="stylesheet" type="text/css" href="styles/4_apropos.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sansita:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>			
+	<header id="pageHeader">
+		<nav>
+			<div id="menuTop">
+				<img id="logo" src="images/logo.svg" alt="Logo">
+				<img id="burgerMenu" src="images/burgerMenu.svg" alt="Afficher Masquer le menu de navigation">			
+			</div>
+			<a class="navLink" id = "navLink1" href="#intro">Intro</a>			
+			<a class="navLink" href="#jeu">Jeu en JavaScript</a>	
+			<a class="navLink" href="#apropos">A propos</a>
+		</nav>				
+	</header>	
+	<section id="intro">
+		<!-- tableau 5 x 5  -->
+		<p id="animText1" class="animText">CSS</p>
+		<div><img src="images/heart.svg" alt="Illustration j'aime le développement" class="animImg" id="animImg1"></div>		
+		<p id="animText2" class="animText">MEDIA QUERIES</p>
+		<div></div>
+
+		<div></div>
+		<p id="animText3" class="animText">HTML</p>
+		<div></div><div></div>
+		<p id="animText4" class="animText">SQL</p>
+
+		<div><img src="images/heart.svg" alt="Illustration j'aime le développement" class="animImg" id="animImg2"></div>
+		<div id="mainTitle"><h1 id="titleH1"></h1></div>
+		<div><img src="images/heart.svg" alt="Illustration j'aime le développement" class="animImg" id="animImg3"></div>
+
+		<p id="animText5" class="animText">JAVASCRIPT</p>
+		<div><img src="images/heart.svg" alt="Illustration j'aime le développement" class="animImg" id="animImg4"></div>		
+		<p id="animText6" class="animText">PHP</p>
+		<div></div>
+		<div></div><div></div>	
+		<p id="animText7" class="animText">JQUERY</p>
+		<div></div>	
+		<p id="animText8" class="animText">JSON</p>
+	</section>
+		
+	<section id="jeu">
+		<div class="twoParts">
+
+		<div id="presentationJeu">
+			<h2>Jeu des Paires en JavaScript</h2>
+			<p id="descriptionJeu">Le jeu des paires est un jeu de mémoire dans lequel il faut faire correspondre les images par deux. Au départ, toutes les images sont face cachée. Le joueur en retourne une, puis une deuxième. Si les  deux images sont identiques, elles restent affichées. Sinon,  elles sont à nouveau cachées. La partie est gagnée quand toutes les images sont affichées.</p>				
+			<p id="difSelect">					
+				<span class="selectButton">4 x 3</span>
+				<span class="selectButton">5 x 4</span>		
+				<span class="selectButton">6 x 5</span>
+				<span class="selectButton">7 x 6</span>
+			</p>				
+			</div>			
+			<div id='playground'>				
+				<div id="playgroundGrid">				
+					<div id='gameLayer'>					
+						<img id="id0" class="card" src="images/dos.svg">
+						<img id="id1" class="card" src="images/dos.svg">
+						<img id="id2" class="card" src="images/dos.svg">
+						<img id="id3" class="card" src="images/dos.svg">
+						<img id="id4" class="card" src="images/dos.svg">
+						<img id="id5" class="card" src="images/dos.svg">
+						<img id="id6" class="card" src="images/dos.svg">
+						<img id="id7" class="card" src="images/dos.svg">
+						<img id="id8" class="card" src="images/dos.svg">
+						<img id="id9" class="card" src="images/dos.svg">
+						<img id="id10" class="card" src="images/dos.svg">
+						<img id="id11" class="card" src="images/dos.svg">					
+					</div>
+					<div id='playLayer'>
+						<img id="play" src="images/play.svg" alt="Jouer">
+					</div>
+					<div id="scoreLayer">
+						<div id="scorePopup">
+							<h3>Félicitations !</h3>
+							<p id="announce">Vous avez terminé la partie</p>
+							<p id="partialScore" class="scoreDetail" ></p>
+							<p id="bonus"class="scoreDetail" ></p>
+							<p id="total"class="scoreDetail" ></p>
+							<p id="replay">Rejouer</p>
+						</div>															
+					</div>
+				</div>
+				<div id="gameScore">
+					<p id="time">&nbsp;</p>			
+					<p id="score"></p>
+				</div>	
+			</div>
+
+			
+		</div>	
+	</section>
+	<section id="apropos">
+		<div class="twoParts">		
+			<div id="aproposMain">
+				<h2>A propos</h2>
+				<p>Je m'appelle Sandie Skeen et je suis passionnée de développement informatique.<br>Je vis à Toulouse, France.</p>
+			</div>
+			<div id="aproposMore">				
+				<p><a href="https://linkedin.com/in/sandie-skeen" target="_blank"><img class ="linkImg" src="images/linkedin.svg" Alt="Lien vers ma page linkedIn"></a>Contactez-moi sur linkedIn</p>
+				<p><a href="https://play.google.com/store/apps/developer?id=Sidnae+Studio" target="_blank"><img class ="linkImg" src="images/google-play.svg" Alt="Lien vers mes applications Android sur Google Play Store"></a>Découvrez mes applications Android sur Google Play</p>
+			</div>
+		</div>						
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>	
+	<script type="text/javascript" src="scripts/menu.js"></script>	
+	<script type="text/javascript" src="scripts/intro.js"></script>
+	<script type="text/javascript" src="scripts/jeu.js"></script>
+
+</body>
+</html>

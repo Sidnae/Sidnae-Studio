@@ -1,0 +1,132 @@
+#jeu {
+	background-color: var(--main);
+	width: 100%;	
+}
+/* ********************************************************************* */
+#playground {				/*contient le playground + la zone d'affichage du temps et du score */
+	margin-bottom: 2rem;
+}
+/* ********************************************************************* */
+/* zone cartes de jeu */
+#playgroundGrid {	//container des trois blocs en-dessous
+	width: 100%;	
+	display: grid;	
+	grid-template-columns: repeat(3, 100%);
+}
+#playLayer{		/* layer contenant le bouton play centré verticalement et horizontalement */
+	grid-column: 1;
+  	grid-row: 1;	
+	display: flex;
+	justify-content: center;
+	align-items: center;		
+}
+#gameLayer{		/* layer contenant les cartes de jeu */
+	grid-column: 1;
+  	grid-row: 1;	
+	display: grid;	
+	grid-template-columns: repeat(4, 1fr);	
+	grid-column-gap: 1vh;
+	grid-row-gap: 1vh;										
+}
+#scoreLayer{		/* layer contenant le popup d'affichage du score (scorePopup)centré verticalement et horizontalement */
+	grid-column: 1;
+	grid-row: 1;  
+	display: none;
+	justify-content: center;
+	align-items: center;	
+}
+/* ********************************************************************* */
+#scorePopup {				/*affiche le score à la fin d'une partie + un bouton replay */
+	display: flex;  
+	flex-direction: column;
+	align-items: center;	
+	margin: auto;
+	padding: 2rem;
+	background-color: var(--main);
+	border-radius: 1rem;	
+	border: 0.5rem white solid;	
+	box-shadow: 0px 0px 0.5rem #4c4c4c;
+}
+/* ********************************************************************* */
+#gameScore{		/* zone d'affichage du temps et du score en dessous du cardset */
+	display: none;
+	flex-direction: row;
+	flex-wrap: nowrap;	
+	justify-content: space-between;
+	align-items: center;	
+	border: 0.2rem var(--third) solid;
+	border-radius: 0.2rem;
+	background-color: var(--main);
+	color: white;
+	padding: 1rem;	
+	margin-top: 1rem;			
+}
+/* ********************************************************************* */
+#presentationJeu h2 {	
+	color: var(--third);	
+}
+#presentationJeu p {	
+	color: white;
+	text-align: justify;
+}
+#descriptionJeu {
+	margin-bottom: 2rem;
+}
+
+.card {
+	width: 100%;	
+}
+#play {	
+	width: 24%;	
+	margin: auto;	
+}
+#scorePopup h3 {	
+	color: white;
+	padding-top: 0;
+	padding-bottom: 1rem;
+}
+#announce {
+	color: white;
+	padding-bottom: 1rem;
+}	
+.scoreDetail {
+	color: var(--second);
+	padding-bottom: 0.5rem;
+}
+#replay {	
+	color: var(--main);
+	font-weight: bold;
+	background-color: var(--second);		
+	margin-top: 1rem;
+	border-radius: 0.3rem;
+	padding: 1rem 2rem 1rem 2rem;
+}
+#difSelect {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	padding-bottom: 2rem;
+}
+.selectButton {			
+	background-color: var(--main);
+	border: 0.1rem white solid;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: 0.3rem;	
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.selectButton:nth-child(1) {
+	background-color: var(--third);
+	border: 0.1rem var(--third) solid;
+	color: var(--main);	
+}
+#play:hover ,#replay:hover, .selectButton:hover {
+	cursor: pointer;
+}
+@media screen and (orientation: portrait) {
+	#presentationJeu h2 {
+		text-align: center;
+	}	
+}

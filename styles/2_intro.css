@@ -1,0 +1,37 @@
+#intro {	
+	display: grid;	
+	grid-template-columns: repeat(5, 16vw);		
+	grid-gap: 1vw;
+	justify-content: center;
+	align-items: center;	
+	padding-top: 8rem;	
+	padding-bottom: 3rem;
+	padding-left: 8vw;
+	padding-right: 8vw;
+}
+#mainTitle {
+	height: 15vw;
+	grid-column-start: 2;
+	grid-column-end: 5;	
+}
+.animImg {
+	display: block;
+	width: 4vw;
+}
+.animText {
+	opacity: 0;
+}
+#animText2 {
+	grid-column-start: 3;
+	grid-column-end: 5;	
+}
+#animText5 {
+	grid-column-start: 1;
+	grid-column-end: 3;	
+}
+#intro p{
+	font-family: Sansita,sans-serif;
+	font-size: 4.5vw;
+	color: var(--third);
+	text-align: center;
+}

@@ -1,0 +1,84 @@
+:root {	
+	--main:#4c4c4c;
+	--second:#ffcc00;
+	--third: #21c5bf;	
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {	
+	background-color: white;
+	font-family: 'Roboto Condensed' , sans-serif;
+	font-size: 1.2rem;	
+	color: var(--main);
+}
+h1 {
+	font-family: 'Sansita' , sans-serif;	
+	font-size: 10vw;
+	color: var(--second);
+	text-shadow: 0.5vw 0.5vw 0 var(--third);
+	text-align: center;	
+}
+h2 {
+	font-family: 'Sansita' , sans-serif;	
+	font-size: 2rem;		
+	margin-bottom: 1rem;	
+	margin-top: -0.5rem;	/*alignement section de gauche - section de droite en mode portrait*/		
+}
+h3 {
+	font-family: 'Sansita' , sans-serif;	
+	font-size: 1.5rem;
+}
+@media screen and (orientation: portrait) and (max-width: 1023px){		/*mobiles et petites tablets en portrait*/
+	.twoParts {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		padding-top: 2rem;
+		padding-bottom:1rem;
+	}
+}
+@media screen and (orientation: portrait) and (min-width: 1024px){		/*mobiles, grandes tablets et desktops en portrait*/
+	.twoParts {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+@media screen and (orientation: landscape) and (max-width: 1279px) {	/*pour mobile landscape, petites tablets landscape, desktops landscape redimensionnés*/
+	.twoParts {
+		width: 100%;
+		display: grid;		
+		grid-template-columns: 45% 45%;
+		justify-content: center;
+		grid-gap: 4%;
+		margin: auto;
+		padding-top: 3rem;		
+		padding-bottom: 2rem;
+	}	
+}
+@media screen and (orientation: landscape) and (min-width: 1280px) and (max-width: 1366px) {	/*pour tablets intermédiaires landscape, portables en landscape , desktops landscape redimensionnés*/
+	.twoParts {
+		width: 85%;
+		display: grid;		
+		grid-template-columns: 45% 45%;
+		justify-content: center;
+		grid-gap: 5%;
+		margin: auto;
+		padding-top: 3rem;		
+		padding-bottom: 2rem;
+	}	
+}
+@media screen and (orientation: landscape) and (min-width: 1367px) {	/* pour desktops landscape */
+	.twoParts {
+		width: 70%;
+		display: grid;		
+		grid-template-columns: 45% 45%;
+		justify-content: center;
+		grid-gap: 10%;
+		margin: auto;
+		padding-top: 3rem;		
+		padding-bottom: 2rem;
+	}	
+}
