@@ -1,13 +1,12 @@
 #intro {	
 	display: grid;	
-	grid-template-columns: repeat(5, 16vw);		
-	grid-gap: 1vw;
+	grid-template-columns: repeat(5, 19vw);		
 	justify-content: center;
 	align-items: center;	
 	padding-top: 8rem;	
-	padding-bottom: 3rem;
-	padding-left: 8vw;
-	padding-right: 8vw;
+	padding-bottom: 2rem;
+	padding-left :2.5vw;
+	padding-right: 2.5vw;	
 }
 #mainTitle {
 	height: 15vw;
@@ -16,7 +15,10 @@
 }
 .animImg {
 	display: block;
-	width: 4vw;
+	width: 6vw;
+}
+#animImg2 {
+	margin-left : 2.5vw;
 }
 .animText {
 	opacity: 0;
@@ -31,7 +33,7 @@
 }
 #intro p{
 	font-family: Sansita,sans-serif;
-	font-size: 4.5vw;
+	font-size: 5.5vw;
 	color: var(--third);
-	text-align: center;
+	text-align: center;	
 }
